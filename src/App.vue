@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from "./components/dynamicTexts/HelloWorld.vue";
 import BindingToAttributes from "./components/Binding to Attributes/BindingToAttributes.vue";
+import BindingClasses from "./components/BindingClasses/BindingClasses.vue";
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import BindingToAttributes from "./components/Binding to Attributes/BindingToAtt
   <div v-text="channel"></div>
   <HelloWorld />
   <BindingToAttributes />
+  <BindingClasses />
 </template>
 
 
